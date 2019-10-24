@@ -3,7 +3,7 @@
 }
 
 body {
-    background: pink;
+    background: #002D62;
     display: flex;
     /* justify-content: space-around; */
     /* align-content: center; */
@@ -51,11 +51,20 @@ h3 {
 
 img {
     height: 400px;
-    width: auto;
     margin-top: 15px;
     border: solid black;
+    max-width: 300px;
+    object-fit: cover;
 }
 
-/* h1, h2 {
-    width: 100%;
-} */
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+button {
+    font-size: 1rem;
+    margin: 10px 0;
+    width: 95px;
+}
